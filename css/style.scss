@@ -44,22 +44,34 @@ body {
 .text {
   display: flex;
   justify-content: center;
-  
 }
 
-.text>p{
+.text > p {
   background-color: var(--darkerGreen);
   color: var(--lightYellow);
   height: 280px;
-  padding: 5% 5% 5% 10% ;
+  padding: 5% 5% 5% 10%;
   display: flex;
   align-items: center;
 }
 
-
 #footerContainer {
   background-color: var(--darkerGreen);
   height: 400px;
+}
+
+.textFooter {
+  background-color: var(--darkerGreen);
+  color: var(--lightYellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5% 5% 5% 5%;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
 }
 
 div[class*="col"] {
@@ -70,4 +82,3 @@ div[class*="col"] {
   background-color: var(--brown);
   background-repeat: no-repeat;
 }
-
