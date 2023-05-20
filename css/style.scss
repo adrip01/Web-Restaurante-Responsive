@@ -50,18 +50,28 @@ body {
   background-size: cover;
 }
 
+#fila1 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
 #imagen2 {
-  background-image: url(https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/10296417/pexels-photo-10296417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 280px;
   background-position: center;
   background-size: cover;
 }
 
 #imagen3 {
-  background-image: url(https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/8951355/pexels-photo-8951355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   height: 280px;
   background-position: center;
   background-size: cover;
+}
+
+#fila3 {
+  margin-top: 25px;
+  margin-bottom: 50px;
 }
 
 .text {
@@ -73,14 +83,21 @@ body {
   background-color: var(--darkerGreen);
   color: var(--lightYellow);
   height: 280px;
-  padding: 5% 5% 5% 10%;
+  padding: 5% 10% 5% 10%;
+  margin: 0px;
   display: flex;
   align-items: center;
 }
 
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 #footerContainer {
   background-color: var(--darkerGreen);
-  height: 400px;
+  height: fit-content;
+  padding-top: 50px;
 }
 
 .textFooter {
@@ -89,16 +106,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5% 5% 5% 5%;
+  padding: 0% 5% 5% 15%;
 }
 
 .contenedorTextFooter {
-  width: 220px;
+  width: 150px;
+  position: relative;
 }
 
 .icon {
   height: 24px;
   width: 24px;
+}
+
+#copyright {
+  padding: 0px 0px 0px 0px;
 }
 
 div[class*="col"] {
