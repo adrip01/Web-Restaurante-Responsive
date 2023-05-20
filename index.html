@@ -13,18 +13,31 @@
   </head>
   <body>
     <header>
-      <div class="container-fluid" id="headerContainer">
-        <div class="row text-center">
-          <div class="col">
-            <h1>LOGO</h1>
+      <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">LOGO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon">
+              <img class="menu-icon" src="./img/icons8-menú.svg" />
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="carta.html">Carta</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
           </div>
         </div>
-        <div class="row text-center">
-          <div class="col-md-4">col navbar</div>
-          <div class="col-md-4">col navbar</div>
-          <div class="col-md-4">col navbar</div>
-        </div>
-      </div>
+      </nav>
+      <div class="container-fluid" id="headerContainer"></div>
     </header>
     <div class="container">
       <div class="row row-cols-2">
@@ -86,7 +99,7 @@
               <p>
                 CONTACTO <br /><br />
                 gmail@gmail.com <br />
-                Telefono: 666 66 66 66 <br />
+                Teléfono: 666 66 66 66 <br />
                 <span>
                   <img
                     class="icon"

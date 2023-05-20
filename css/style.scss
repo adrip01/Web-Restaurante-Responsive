@@ -11,6 +11,29 @@ body {
   background-color: var(--darkGreen) !important;
 }
 
+.navbar {
+  background-color: var(--darkerGreen);
+}
+
+.navbar-brand {
+  color: var(--lightYellow) !important;
+}
+
+.nav-link {
+  color: var(--lightYellow) !important;
+}
+
+.navbar-toggler {
+  border: transparent !important;
+  --bs-navbar-toggler-icon-bg: 0;
+  color: transparent !important;
+}
+
+.menu-icon {
+  height: 35px;
+  width: 35px;
+}
+
 #headerContainer {
   background-image: url(https://images.pexels.com/photos/4577179/pexels-photo-4577179.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
   width: 100vw;
