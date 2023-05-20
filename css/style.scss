@@ -30,8 +30,8 @@ body {
 }
 
 .menu-icon {
-  height: 35px;
-  width: 35px;
+  height: 100%;
+  width: 100%;
 }
 
 #headerContainer {
@@ -92,6 +92,10 @@ body {
   padding: 5% 5% 5% 5%;
 }
 
+.contenedorTextFooter {
+  width: 220px;
+}
+
 .icon {
   height: 24px;
   width: 24px;
@@ -104,4 +108,12 @@ div[class*="col"] {
 .image {
   background-color: var(--brown);
   background-repeat: no-repeat;
+}
+
+.contenedorMapa {
+  height: 600px;
+  padding: 5% 0% 0% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
