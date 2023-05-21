@@ -9,6 +9,14 @@
 }
 body {
   background-color: var(--darkGreen) !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.wrapper {
+  flex: 1;
 }
 
 .navbar {
