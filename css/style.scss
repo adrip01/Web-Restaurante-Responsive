@@ -144,6 +144,48 @@ div[class*="col"] {
   margin-top: 56px;
 }
 
+.contenedorTextContacto {
+  color: var(--lightYellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 0px 0px;
+  padding: 0px 25px;
+}
+
+.contenedorTextContacto > p {
+  margin: 25px 0px 5px 0px;
+  text-align: center;
+}
+
+.contenedorTextHorario {
+  color: var(--lightYellow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.contenedorMapa {
+  height: 500px;
+  padding: 0% 0% 0% 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorMapa h2 {
+  color: var(--lightYellow);
+}
+
+.contenedorMapa p {
+  color: var(--lightYellow);
+  margin: 5px 0px 50px 0px;
+}
+
 .contenedorForm {
   height: 590px;
   display: flex;
@@ -151,6 +193,7 @@ div[class*="col"] {
   justify-content: center;
   align-items: center;
   padding: 0px 0px 0px 0px;
+  margin-bottom: 50px;
 }
 
 form {
@@ -167,22 +210,4 @@ form {
 
 textarea {
   resize: none !important;
-}
-
-.contenedorMapa {
-  height: 500px;
-  padding: 0% 0% 0% 0%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-.contenedorMapa h2 {
-  color: var(--lightYellow);
-}
-
-.contenedorMapa p {
-  color: var(--lightYellow);
 }
