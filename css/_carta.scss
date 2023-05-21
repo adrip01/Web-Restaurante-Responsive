@@ -1,0 +1,43 @@
+:root {
+  --darkerGreen: #040d08;
+  --darkGreen: #314037;
+  --brightOrange: #f25d07;
+  --brown: #592a19;
+  --darkRed: #8c0303;
+  --lightYellow: #d9c99a;
+  --lightPink: #d9b4a7;
+}
+
+.Entrantes {
+  color: var(--lightYellow);
+  padding: 25px 0px 0px 37px;
+}
+
+h4 {
+    
+  color: var(--lightYellow);
+  padding: 25px 0px 0px 37px;
+
+}
+
+#contenedorCards {
+  margin: 25px 25px 50px 25px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card {
+    margin-bottom: 25px;
+}
+
+.card-img-top {
+  background-image: url(https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  height: 150px;
+  background-position: center;
+  background-size: cover;
+}
+.price {
+  font-weight: 600;
+  font-size: 1.5em;
+}
