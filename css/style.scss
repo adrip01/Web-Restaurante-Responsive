@@ -9,6 +9,11 @@
   --lightYellow: #d9c99a;
   --lightPink: #d9b4a7;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   background-color: var(--darkGreen) !important;
   display: flex;
