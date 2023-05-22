@@ -32,11 +32,12 @@ Se trata de crear una web responsive de un restaurante en este caso. Como minimo
 ## Stack
 
 <div align="center">
+    <img src= "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
+    <img src= "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
+    <img src= "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white"/>
 <a href="https://getbootstrap.com/">
-    <img src= "https://img.shields.io/badge/-bootstrap-blueviolet"/>
+    <img src= "https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white"/>
 </a>
-    <img src= "https://img.shields.io/badge/-html5-orange"/>
-    <img src= "https://img.shields.io/badge/-css-blue"/>
 
  </div>
 
