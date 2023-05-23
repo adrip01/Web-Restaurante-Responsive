@@ -14,10 +14,8 @@
 }
 
 h4 {
-    
   color: var(--lightYellow);
   padding: 25px 0px 0px 37px;
-
 }
 
 #contenedorCards {
@@ -30,7 +28,7 @@ h4 {
 }
 
 .card {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .card-img-top {
@@ -42,4 +40,8 @@ h4 {
 .price {
   font-weight: 600;
   font-size: 1.5em;
+}
+
+#navbarLogo {
+  margin-left: 12px;
 }
