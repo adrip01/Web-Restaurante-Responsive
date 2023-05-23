@@ -31,12 +31,32 @@ h4 {
   margin-bottom: 25px;
 }
 
-.card-img-top {
-  background-image: url(https://images.pexels.com/photos/359993/pexels-photo-359993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  height: 150px;
+div[class*="card-img-top"] {
+  background-image: url(/img/logo.png);
+  height: 200px;
   background-position: center;
   background-size: cover;
 }
+
+.card-img-top-entrantes {
+  background-image: url(https://images.pexels.com/photos/836850/pexels-photo-836850.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+.card-img-top-rolls {
+  background-image: url(https://images.pexels.com/photos/13774679/pexels-photo-13774679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+.card-img-top-postres {
+  background-image: url(https://images.pexels.com/photos/4040701/pexels-photo-4040701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+.card-img-top-postres2 {
+  background-image: url(https://images.pexels.com/photos/15580728/pexels-photo-15580728/free-photo-of-comida-chocolate-postre-dulce.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+.card-img-top-bebidas {
+  background-image: url(https://images.pexels.com/photos/2286972/pexels-photo-2286972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+.card-img-top-bebidas2 {
+  background-image: url(https://images.pexels.com/photos/3819969/pexels-photo-3819969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2) !important;
+}
+
 .price {
   font-weight: 600;
   font-size: 1.5em;
