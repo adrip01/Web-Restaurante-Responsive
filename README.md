@@ -9,7 +9,6 @@
     <li><a href="#stack">Stack</a></li>
     <li><a href="#vistas">Vistas</a></li>
     <li><a href="#futuras-funcionalidades">Futuras funcionalidades</a></li>
-    <li><a href="#licencia">Licencia</a></li>
     <li><a href="#webgrafia">Webgrafia</a></li>
     <li><a href="#contacto">Contacto</a></li>
   </ol>
@@ -43,29 +42,21 @@ Se trata de crear una web responsive de un restaurante en este caso. Como minimo
 
 ## Vistas
 
-<!-- Landing
-<img src="./images/landing.png">
-Register
-<img src="./images/register.png">
-Login
-<img src="./images/login.png">
-Profile
-<img src="./images/profile.png">
-Routines
-<img src="./images/routines.png">
-Exercices
-<img src="./images/exercises.png"> -->
+Home
+<img src="./img/readme/SushiHome.png">
+<!-- Carta
+<img src="./images/register.png"> -->
+Contacto
+<img src="./img/readme/Contacto.png">
+
 
 ## Futuras funcionalidades
 
 <!-- ✅ Vista actualizar rutinas   -->
 
-⬜ Carrito de compra
+⬜ Carrito de compra 
+
 ⬜ Drag and drop
-
-## Licencia
-
-Este proyecto se encuentra bajo licencia de "Adriana Pardo"
 
 ## Webgrafia:
 
